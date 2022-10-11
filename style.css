@@ -1,0 +1,71 @@
+:root {
+    font-size:62%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'poppins', sans-serif;
+}
+
+input, textarea, select, button, span, p {
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.feedPostCardContainer {
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 12px 10px 8px rgb(119, 119, 119);
+}
+
+.feedPostCardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.feedPostProfileImgContainer {}
+
+#feedPostImgProfile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.feedPostUserName {
+    font-size: 1.2rem;
+}
+
+.feedPostImgContainer {}
+
+.feedPostImg {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.feedPostContent {
+    width: 350px;
+    padding: 0.8rem;
+}
+
+.feedPostText {
+    font-size: 1.1rem;
+}
